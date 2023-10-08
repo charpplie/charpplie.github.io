@@ -13,18 +13,29 @@ header img {
     border: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
 footer {
     background-color: #0e0e0e;
     color: #d5d5d5;
     padding: 20px 0;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .contact-info {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 800px;
     margin: 0 auto;
-    vertical-align: middle;
+    vertical-align: bottom;
     margin-bottom: 0;
 }
 
