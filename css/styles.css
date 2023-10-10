@@ -30,6 +30,15 @@
     opacity: 1;
 }
 
+.topbar-logo {
+    position: fixed;
+    top: -49px;
+    left: 111px;
+    height: 153px;
+    width: auto;
+    z-index: 100;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
