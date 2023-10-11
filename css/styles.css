@@ -79,6 +79,7 @@ header img {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .contact-info h2 {
@@ -87,7 +88,6 @@ header img {
 }
 
 .contact-info a img {
-  font-size: 14px;
   width: 64px;
   height: auto;
 }
